@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ViewController</key>
+	<dict>
+		<key>ControlEventIDs</key>
+		<dict>
+			<key>onTextfieldbegin:</key>
+			<string>VIEW_FIELD</string>
+			<key>onTextfieldend:</key>
+			<string>VIEW_FIELD_END</string>
+			<key>btnClick:</key>
+			<string>VIEW_BTN</string>
+		</dict>
+		<key>PageEventIDs</key>
+		<dict>
+			<key>Appear</key>
+			<string>PAGE_EVENT_VIEW_APPEAR</string>
+			<key>DisAppear</key>
+			<string>PAGE_EVENT_VIEW_DISAPPEAR</string>
+		</dict>
+	</dict>
+	<key>SecondController</key>
+	<dict>
+		<key>PageEventIDs</key>
+		<dict>
+			<key>Appear</key>
+			<string>PAGE_EVENT_SECOND_APPEAR</string>
+			<key>DisAppear</key>
+			<string>PAGE_EVENT_SECOND_DISAPPEAR</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
